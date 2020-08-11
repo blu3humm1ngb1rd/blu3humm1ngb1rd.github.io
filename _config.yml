@@ -1,14 +1,14 @@
 # Site settings
-author: BJ
-title: whySoftwareEngineering?
+author: BJ Lilley
+title: BJ Lilley
 header-img: img/home-bg.png
 email: bethjeanlilley@gmail.com
-copyright_name: BJ
+copyright_name: BJ Lilley
 description: > # this means to ignore newlines until "baseurl:"
-  blog.1
+  dev.in.training
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
-github_username:  blu3humm1ngb1rd
+github_username:  lilleydev
 
 # Build settings
 markdown: kramdown

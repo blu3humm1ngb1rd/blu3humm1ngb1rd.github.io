@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My First FUN Gem!!"
-date:       2020-07-11 00:15:09 +0000
+date:       2020-07-10 20:15:10 -0400
 permalink:  my_first_fun_gem
 ---
 
@@ -32,7 +32,7 @@ It has (as of Stardate 98123.69) **109,176,622 downloads! #MAJORgoals
 
 ### How to use these? 
 
-As with any gem, these need to be downloaded. These are great "starter" gems becuase they are relatively similar in what they accomplish and how to implement them into your program.
+As with any gem, these need to be downloaded. These are great "starter" gems because they are relatively similar in what they accomplish and how to implement them into your program.
 
 ```
 gem install 'name of gem' 

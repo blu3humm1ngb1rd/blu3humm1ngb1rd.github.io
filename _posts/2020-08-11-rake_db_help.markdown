@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "rake db:help"
-date:       2020-08-11 05:17:09 +0000
+date:       2020-08-11 01:17:10 -0400
 permalink:  rake_db_help
 ---
 
@@ -92,7 +92,7 @@ One last thing I wanted to point out is:
 t.boolean :training, default: false
 ```
 
-This will set the training value to default to false. You can see in my seeds file above, the volunteers are set to both having been trained '1' to set the default from false to true. The Project.first[:assigned] will return false, and Project.last[:assigned] will return false. You MUST enter an integer when you instantiate. If you want the default to remain, use 0. Otherwise, 1 works to change the boolean value to true. It's worth noting, I played around in my 'rake console' with a few numbers. When I used '0' , '3', '4' it returned false. '1' and '2' returned true. I didn't try past 4. The point being- 0 will keep the default value. 
+This will set the training value default to false. You can see in my seeds file above, the volunteers are set to both having been trained '1' to set the default from false to true. The Project.first[:assigned] will return false, and Project.last[:assigned] will return false. You MUST enter an integer when you instantiate. If you want the default to remain, use 0. Otherwise, 1 works to change the boolean value to true. It's worth noting, I played around in my 'rake console' with a few numbers. When I used '0' , '3', '4' it returned false. '1' and '2' returned true. I didn't try past 4. The point being- 0 will keep the default value. 
 
 As always, you have rake -T at the ready to help with commands. I found this a useful place to start, but it doesn't give the full syntax. If you've really hit a wall...you can delete the files and start again! In the development stages, this has been really helpful when I have raked myself into a corner. 
 
